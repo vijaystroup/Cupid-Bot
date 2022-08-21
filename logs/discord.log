@@ -1,0 +1,75 @@
+SNIPPET FROM LOG
+----------------
+
+2019-09-22 01:21:26,161:INFO:discord: Starting...
+2019-09-22 01:21:26,164:INFO:discord.client: logging in using static token
+2019-09-22 01:21:26,368:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2019-09-22 01:21:26,371:INFO:discord.gateway: Shard ID None has sent the IDENTIFY payload.
+2019-09-22 01:21:26,496:INFO:discord.gateway: Shard ID None has connected to Gateway: ["gateway-prd-main-0qvt",{"micros":97565,"calls":["discord-sessions-prd-1-2",{"micros":96332,"calls":["start_session",{"micros":38413,"calls":["api-prd-main-jrr1",{"micros":35074,"calls":["get_user",{"micros":5159},"add_authorized_ip",{"micros":7},"get_guilds",{"micros":3829},"coros_wait",{"micros":3}]}]},"guilds_connect",{"micros":19,"calls":[]},"presence_connect",{"micros":2,"calls":[]}]}]}] (Session ID: 51a0c2d17e77f84c6efa4c822872bc47).
+2019-09-22 01:21:30,582:INFO:discord.state: Processed a chunk for 710 members in guild ID 545261966386790407.
+2019-09-22 01:21:30,599:INFO:discord.state: Processed a chunk for 437 members in guild ID 616261922634989568.
+2019-09-22 01:21:30,617:INFO:discord.state: Processed a chunk for 478 members in guild ID 616315616617300124.
+2019-09-22 01:21:30,618:INFO:discord: on_ready
+2019-09-22 01:21:30,642:INFO:discord: connecting to database..
+2019-09-22 01:21:30,643:INFO:discord: **Cupid#1346 is ready**
+2019-09-22 01:22:19,363:WARNING:discord: Command "...." is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 01:25:39,992:WARNING:discord: Command "." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:25:53,309:WARNING:discord: Command "....." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:26:47,444:WARNING:discord: Command ".." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:27:08,803:WARNING:discord: Command "...my" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 01:27:52,951:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:28:20,138:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:29:03,840:WARNING:discord: Command "....*walks" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 01:29:33,329:WARNING:discord: Command "....." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:29:37,899:WARNING:discord: Command "..............................." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:30:19,896:WARNING:discord: Command "....." is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 01:31:09,773:WARNING:discord: Command ".......truth" is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:31:28,690:WARNING:discord: Command "....fine" is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:32:02,964:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:32:22,745:WARNING:discord: Command "......*takes" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 01:33:52,606:WARNING:discord: Command "..." is not found does not exist from chickensandcats#2241 on guild 618940160775684099
+2019-09-22 01:34:05,449:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:34:41,891:WARNING:discord: Command "..." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:37:22,006:WARNING:discord: Command ".." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:37:57,752:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:39:02,606:WARNING:discord: Command "." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:39:09,896:WARNING:discord: Command ".." is not found does not exist from chickensandcats#2241 on guild 618940160775684099
+2019-09-22 01:40:43,979:WARNING:discord: Command ".." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:41:26,328:WARNING:discord: Command ".........." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:41:31,858:WARNING:discord: Command "........" is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:41:36,044:WARNING:discord: Command ".................." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:41:47,552:WARNING:discord: Command "..................." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:42:02,138:WARNING:discord: Command "......" is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:42:14,398:WARNING:discord: Command "..." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:42:28,141:WARNING:discord: Command "......." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:42:39,392:WARNING:discord: Command "profile" is not found does not exist from NelaaFloress😈#3673 on guild 620432989624729641
+2019-09-22 01:42:53,679:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:43:04,051:WARNING:discord: Command "profile" is not found does not exist from NelaaFloress😈#3673 on guild 620432989624729641
+2019-09-22 01:43:10,002:WARNING:discord: Command "...." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 01:43:27,354:WARNING:discord: Command "kiss" is not found does not exist from NelaaFloress😈#3673 on guild 620432989624729641
+2019-09-22 01:43:46,727:WARNING:discord: Command "....okay" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 01:43:48,796:WARNING:discord: bot is a required argument that is missing. does not exist from NelaaFloress😈#3673 on guild 620432989624729641
+2019-09-22 01:44:19,057:WARNING:discord: proposee is a required argument that is missing. does not exist from NelaaFloress😈#3673 on guild 620432989624729641
+2019-09-22 01:45:49,485:WARNING:discord: proposee is a required argument that is missing. does not exist from NelaaFloress😈#3673 on guild 620432989624729641
+2019-09-22 01:46:28,729:WARNING:discord: Command "....I" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 02:31:55,916:WARNING:discord: Command "..." is not found does not exist from Omega#8178 on guild 618940160775684099
+2019-09-22 02:47:56,173:WARNING:discord: Command "v" is not found does not exist from ღYoonღ#9355 on guild 614885903831400458
+2019-09-22 02:49:27,645:WARNING:discord: Command ".." is not found does not exist from ღYoonღ#9355 on guild 614885903831400458
+2019-09-22 05:34:36,170:WARNING:discord: Command "...." is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 05:35:08,236:WARNING:discord: Command "..." is not found does not exist from acheddarie#3012 on guild 622213810421366784
+2019-09-22 05:35:22,999:WARNING:discord: Command "......." is not found does not exist from Komomo ❥#8468 on guild 618940160775684099
+2019-09-22 05:36:51,733:WARNING:discord: Command ".." is not found does not exist from acheddarie#3012 on guild 622213810421366784
+2019-09-22 05:38:18,205:WARNING:discord: Command "..baka" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 05:42:10,327:WARNING:discord: Command "...yeah," is not found does not exist from Komomo ❥#8468 on guild 618940160775684099
+2019-09-22 05:43:31,625:WARNING:discord: Command "....eh" is not found does not exist from ハッピーバニー 😁🐇#4454 on guild 618940160775684099
+2019-09-22 10:35:50,974:INFO:discord.state: Processed a chunk for 362 members in guild ID 625072507178713148.
+2019-09-22 11:40:01,168:WARNING:discord: Command ".." is not found does not exist from chickensandcats#2241 on guild 618940160775684099
+2019-09-22 11:46:11,262:WARNING:discord: Command ".." is not found does not exist from chickensandcats#2241 on guild 618940160775684099
+2019-09-22 12:16:48,790:INFO:discord.gateway: Websocket closed with 1006 (), attempting a reconnect.
+2019-09-22 12:16:48,790:INFO:discord.client: Got a request to RESUME the websocket.
+2019-09-22 12:16:48,941:INFO:discord.gateway: Created websocket connected to wss://gateway.discord.gg?encoding=json&v=6&compress=zlib-stream
+2019-09-22 12:16:48,945:INFO:discord.gateway: Shard ID None has sent the RESUME payload.
+2019-09-22 12:16:48,988:INFO:discord.gateway: Shard ID None has successfully RESUMED session 51a0c2d17e77f84c6efa4c822872bc47 under trace ["gateway-prd-main-ggbv",{"micros":7136,"calls":["discord-sessions-prd-1-2",{"micros":275}]}].
+2019-09-22 12:18:01,227:WARNING:discord.gateway: Shard ID None has stopped responding to the gateway. Closing and restarting.
+2019-09-22 13:06:26,806:WARNING:discord: Command "-." is not found does not exist from chickensandcats#2241 on guild 618940160775684099
+2019-09-22 13:06:53,996:WARNING:discord: Command ".." is not found does not exist from Omega#8178 on guild 618940160775684099

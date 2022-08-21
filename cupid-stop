@@ -1,0 +1,5 @@
+#!/bin/bash
+
+cd $CUPID_BASE
+PID=`pgrep -f cupid.py`
+kill $PID

@@ -1,0 +1,8 @@
+#!/bin/bash
+
+set -x
+cd
+python3.6 -m venv $CUPID_ENV
+source $CUPID_ENV/bin/activate
+python3.6 -m pip install -U discord.py[voice]
+python3.6 -m pip install -U pillow
